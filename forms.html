@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <from action="layout.html">
+    <label> First Name: </label>
+    <input name="firstname" type="text" required/>
+    <br>
+    <label> Password: </label>
+    <input name="password" type="password" required/>
+    <br>
+
+    <label> CİNSİYETİNİZ </label>
+    <select name="gender">
+      <option>erkek</option>
+      <option>kadın</option>
+    </select>
+    <br>
+    <label> ARABANIZ </label>
+    <select name="car" size="2" multipe>
+      <option>volvo</option>
+      <option>audi</option>
+      <option>reanult</option>
+      <option>bmw</option>
+      <option>mercedes</option>
+    </select><br>
+    <input type="submit" value="kaydet" />
+    <br>
+    <button onClick="alert('kayıt edildi')">kaydet</button>
+  </from>
+</body>
+
+</html>

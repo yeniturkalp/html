@@ -1,0 +1,51 @@
+h1 {
+    color: red;
+    background-color: orange;
+  }
+  
+  body {
+    background-color: red;
+  }
+  div{
+    background-color:yellow;
+    border:2px solid ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+  table {
+    border: 2px solid red;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table,
+  th,
+  td {
+    border: solid;
+  }
+  
+  th {
+    height: 30px;
+    text-align: center;
+  }
+  
+  td {
+    height: 40px;
+    vertical-align: center;
+    text-align: center;
+  }
+  
+  tr:hover {
+    background-color: red;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: yellow;
+  }
+  
+  tr:nth-child(even) {
+    background-color: red;
+  }
